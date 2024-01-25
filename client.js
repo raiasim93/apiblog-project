@@ -12,6 +12,8 @@ const API_URL = "http:/localhost:4000/"
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static('public'));
 
+
+// hitting the home route
 app.listen(port, ()=>{
   console.log(`Server running at port: ${port}`);
 });
